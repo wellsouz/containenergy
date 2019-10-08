@@ -1,6 +1,11 @@
-# Improving the Energy Efficiency of Multi-core Virtual Machines and Software-Defined Servers
+# ContainEnergy - A QoS and container-based approach for energy saving and performance profiling in multi-core servers
+ContainEnergy is a profiling tool designed to generate comprehensive energy and performance profiling data, with an overhead of 1,18%. 
 
-International collaboration project between ESL.EPFL (Switzerland) and LAPPS.UFRN (Brazil), funded by State Secretariat for Education, Research and Innovation SERI (Switzerland). The project goal is to develop software technologies (framework and API) to improve energy efficiency of applications in multi-core virtual machines and software-defined servers.
+It uses a combination of software containers, performance counters and DVFS to isolate application and allow user to assess execution over different hardware and software setups.
+
+During execution, DVFS governor is adjusted and raw energy/performance data are extracted by performance counters. These raw values are combined and processed, resulting in a comprehensive profiling dataset crafted on top of the target system tuned throughout available configurations
+
+ContainEnergy is parte of the "Improving the Energy Efficiency of Multi-core Virtual Machines and Software-Defined Servers" project, which is a international collaboration project between ESL.EPFL (Switzerland) and LAPPS.UFRN (Brazil), funded by State Secretariat for Education, Research and Innovation SERI (Switzerland). The project goal is to develop software technologies (framework and API) to improve energy efficiency of applications in multi-core virtual machines and software-defined servers.
 
 
 ## Getting Started
@@ -169,25 +174,10 @@ time,mean,unit,event,counterruntime-average,counterruntime-pct,stdev,min,max,poc
 
 TO-DO
 
-## Deployment on Production Systems
-
-TO-DO
-
-## Contributing
-
-TO-DO
-
-## Versioning
-
-TO-DO
-
 ## Authors
 
 * **Wellington Souza** - [Lattes CV](http://lattes.cnpq.br/6381572434235852)
 
-## License
-
-TO-DO
 
 ## Acknowledgments
 
